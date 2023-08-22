@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+.cls{
+    text-align: center;
+    font-size: 50px;
+    color: white ;
+}
+.conatiner1{
+    width: 150px; 
+    height: 150px;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: red;
+    position: relative;
+    animation-name: AchiversIT;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-duration:7s;
+    animation-direction:normal;
+    animation-iteration-count:infinite;
+}
+@keyframes AchiversIT{
+    0%{
+        left: 0px;
+        top:0px;
+        background-color: rgb(238, 162, 162);
+    }
+    25%{
+        left: 0px;
+        top:400px; 
+        background-color: lightcoral;
+        border-radius: 15%;
+    }
+    50%{
+        left:12AZ 00px;
+        top:400px;
+        border-radius: 30%;
+        background-color: blueviolet;
+    }
+    75%{
+        left:1200px;
+        top:0px;
+        border-radius: 45%;
+        background-color: blue;
+    }
+    100%{
+        left:0px;
+        top:0px;
+        border-radius: 60%;
+        background-color: black;
+    }
+}
+/*
+in place of left and top we can use 
+margin: top right bottom left;
+or 
+transform: translatex(1400px);
+transform: translatey(1400px);
+*/
